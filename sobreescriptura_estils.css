@@ -1,22 +1,37 @@
 /*1. color general de la lletra negra*/
-p {
+p /* selector d'etiqueta */  { 
     color:black;
 }
 
 /*2. titol nivell 1 fons blanc lletra gris*/
-#titol-pagina {
+#titol-pagina { /* # serveix per indicar un selector id */
     background-color: white;
     color: gray;
 }
 
 /*3. tots els strong en color verd i subratllats*/
 strong{
-    color:green
+    color:green !important;
+    text-decoration: underline;
+    /* estil per subratllar. Més modificable amb la propietat text-decoration-color que 
+    permet canviar de color */
 }
 
 /*4. enllaços del paràgraf2 en italica*/
-
+.paragraf2 a { /* selector classe */ 
+    font-style: italic; /*estil que serveix per fer lletra itàlica en general, té un altre estil que es diu 
+    oblique que és més o menys el mateix però menys compatible amb les webs*/
+}
 
 /*5. footer general del web centrat i lletra de 10px*/
+footer{
+    text-align: center; /* estil que serveix per alinear el text al centre, dreta o esquerra */
+    font-size: 10px; /* estil per dimensionar el tamany d'un text. Pot modificar-se en pixels o en ems. La diferència és
+    que aquest últim és compatible amb les opcions d'accessibilitat de dimensionament de text de la majoria de navegadors.*/
+}
 
 /*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+
+/*el que ha passat és que les etiquetes d'strong del fitxer estils_inicials.css s'han imposat a la del sobreescriptura_estils.css 
+perquè aquell fitxer s'ha procesat l'últim. 
+
