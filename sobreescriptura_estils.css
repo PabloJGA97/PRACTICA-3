@@ -35,6 +35,10 @@ footer{
 /*el que ha passat és que les etiquetes d'strong del fitxer estils_inicials.css s'han imposat a la del sobreescriptura_estils.css 
 perquè aquell fitxer s'ha procesat l'últim. 
 
+<<<<<<< HEAD
 La meva solució seria color:green !important a l'arxiu de sobreescriptura per prioritzar l'etiqueta del fitxer de sobreescriptura
+=======
+La meva solució seria color:green !important a l'arxiu de sobreescriptura per prioritzar la seva etiqueta
+>>>>>>> 5b8703b00b0be1e8e921cdb58214e98f15c5938c
 per sobre del fitxer d'estils_inicials.css*/
 
